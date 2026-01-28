@@ -193,6 +193,13 @@ const EWastePlatform = () => {
             </button>
           </div>
         </div>
+        {/* Attribution */}
+        <div className="mt-20 pt-6 border-t border-gray-200 text-center">
+          <p className="text-sm text-gray-500">
+            Designed & Developed by <span className="font-medium text-gray-700">Ashish Garg and Mitrasen Yadav</span>
+          </p>
+        </div>
+
       </div>
     </div>
   );
@@ -235,6 +242,92 @@ const EWastePlatform = () => {
               <span>Empower users through value sharing and awareness</span>
             </li>
           </ul>
+          {/* Our Team Section */}
+          <div className="mt-20">
+            <h2 className="text-3xl font-semibold text-gray-900 mb-12 text-center">
+              Our Team at NIT Hamirpur
+            </h2>
+
+            {/* Principal Investigator */}
+            <div className="flex justify-center mb-12">
+              <div className="border border-gray-200 rounded-xl p-8 text-center bg-white w-80">
+                <img
+                  src="/team/mamta-awasthi.jpeg"
+                  alt="Dr. Mamta Awasthi"
+                  className="w-32 h-32 mx-auto rounded-full object-cover mb-4"
+                />
+                <h3 className="text-xl font-semibold text-gray-900">
+                  Dr. Mamta Awasthi
+                </h3>
+                <p className="text-sm text-gray-600 mt-1">
+                  Principal Investigator
+                </p>
+              </div>
+            </div>
+
+            {/* Project Associate */}
+            <div className="flex justify-center mb-12">
+              <div className="border border-gray-200 rounded-xl p-6 text-center bg-white w-72">
+                <img
+                  src="/team/prateek.jpg"
+                  alt="Er. Prateek"
+                  className="w-28 h-28 mx-auto rounded-full object-cover mb-4"
+                />
+                <h3 className="text-lg font-semibold text-gray-900">
+                  Er. Prateek
+                </h3>
+                <p className="text-sm text-gray-600 mt-1">
+                  Project Associate
+                </p>
+              </div>
+            </div>
+
+            {/* Interns */}
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-4xl mx-auto">
+              <div className="border border-gray-200 rounded-xl p-6 text-center bg-white">
+                <img
+                  src="/team/akarshak-bose.jpeg"
+                  alt="Akarshak Bose"
+                  className="w-24 h-24 mx-auto rounded-full object-cover mb-3"
+                />
+                <h3 className="text-base font-semibold text-gray-900">
+                  Akarshak Bose
+                </h3>
+                <p className="text-sm text-gray-600">
+                  Project Intern
+                </p>
+              </div>
+
+              <div className="border border-gray-200 rounded-xl p-6 text-center bg-white">
+                <img
+                  src="/team/ashish-garg.jpg"
+                  alt="Ashish Garg"
+                  className="w-24 h-24 mx-auto rounded-full object-cover mb-3"
+                />
+                <h3 className="text-base font-semibold text-gray-900">
+                  Ashish Garg
+                </h3>
+                <p className="text-sm text-gray-600">
+                  Technical Intern
+                </p>
+              </div>
+
+              <div className="border border-gray-200 rounded-xl p-6 text-center bg-white">
+                <img
+                  src="/team/mitrasen-yadav.jpeg"
+                  alt="Mitrasen Yadav"
+                  className="w-24 h-24 mx-auto rounded-full object-cover mb-3"
+                />
+                <h3 className="text-base font-semibold text-gray-900">
+                  Mitrasen Yadav
+                </h3>
+                <p className="text-sm text-gray-600">
+                  Technical Intern
+                </p>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
