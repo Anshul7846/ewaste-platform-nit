@@ -325,6 +325,21 @@ const EWastePlatform = () => {
                   Technical Intern
                 </p>
               </div>
+
+              <div className="border border-gray-200 rounded-xl p-6 text-center bg-white">
+                <img
+                  src="/team/ashish-garg.jpg"
+                  alt="Anshul Thakur"
+                  className="w-24 h-24 mx-auto rounded-full object-cover mb-3"
+                />
+                <h3 className="text-base font-semibold text-gray-900">
+                  Anshul Thakur
+                </h3>
+                <p className="text-sm text-gray-600">
+                  Backend Intern
+                </p>
+              </div>
+
             </div>
           </div>
 
